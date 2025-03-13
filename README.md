@@ -1,10 +1,10 @@
-# Project 3 - *Name of App Here*
+# Project 3 - Trivia
 
-Submitted by: **Your Name Here**
+Submitted by: Dave Mathew Marteja
 
-**Name of your app** is an app that ... [TODO] 
+Trivia is an app that lets you play trivia where you guess which video game matches a cropped image of the box art 
 
-Time spent: **X** hours spent in total
+Time spent: 2 hours spent in total
 
 ## Required Features
 
