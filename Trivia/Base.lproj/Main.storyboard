@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="YfH-qz-B0u">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Trivia View Controller-->
+        <scene sceneID="4hN-Ab-O19">
+            <objects>
+                <viewController id="YfH-qz-B0u" customClass="TriviaViewController" customModule="Trivia" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3Sg-3G-inQ">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="37" translatesAutoresizingMaskIntoConstraints="NO" id="WY9-LB-1K0">
+                                <rect key="frame" x="71.666666666666686" y="109" width="250" height="638"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bd7-NU-opt">
+                                        <rect key="frame" x="0.0" y="0.0" width="250" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="71z34TM8hzL" translatesAutoresizingMaskIntoConstraints="NO" id="s9D-iq-MRq">
+                                        <rect key="frame" x="0.0" y="57.333333333333343" width="250" height="230.00000000000003"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="250" id="pek-X6-knM"/>
+                                            <constraint firstAttribute="height" constant="230" id="vkA-Bg-LXl"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What game is this?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iOG-Sv-upB">
+                                        <rect key="frame" x="0.0" y="324.33333333333331" width="250" height="25.666666666666686"/>
+                                        <fontDescription key="fontDescription" name="KohinoorGujarati-Regular" family="Kohinoor Gujarati" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I0K-HP-N7S">
+                                        <rect key="frame" x="0.0" y="387" width="250" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="250" id="SUe-vf-W0v"/>
+                                            <constraint firstAttribute="height" constant="35" id="rFN-li-MI7"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="tinted" title="Galaga"/>
+                                        <connections>
+                                            <action selector="ans2:" destination="YfH-qz-B0u" eventType="touchUpInside" id="ahf-jh-Sn5"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b7V-KM-NCm">
+                                        <rect key="frame" x="0.0" y="459" width="250" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="250" id="RtI-m6-x9b"/>
+                                            <constraint firstAttribute="height" constant="35" id="hem-ra-grd"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="tinted" title="Call of Duty Black Ops 3"/>
+                                        <connections>
+                                            <action selector="ans3:" destination="YfH-qz-B0u" eventType="touchUpInside" id="BiK-0V-wS0"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3NO-Dd-PHy">
+                                        <rect key="frame" x="0.0" y="531" width="250" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="250" id="b2c-9p-blX"/>
+                                            <constraint firstAttribute="height" constant="35" id="yXb-5C-wff"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="tinted" title="Destiny 2"/>
+                                        <connections>
+                                            <action selector="ans4:" destination="YfH-qz-B0u" eventType="touchUpInside" id="lpI-l9-UyA"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rwu-sQ-d0K">
+                                        <rect key="frame" x="0.0" y="603" width="250" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="k4P-GP-O8T"/>
+                                            <constraint firstAttribute="width" constant="250" id="qSy-hk-ChG"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="tinted" title="Halo 3"/>
+                                        <connections>
+                                            <action selector="Ans1:" destination="YfH-qz-B0u" eventType="touchUpInside" id="nUM-Zh-ONp"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="lQ9-uX-Jek"/>
+                        <color key="backgroundColor" red="0.86567385665523344" green="0.85336880058364539" blue="0.96841150522232056" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="WY9-LB-1K0" firstAttribute="centerX" secondItem="3Sg-3G-inQ" secondAttribute="centerX" id="6FW-4w-I9f"/>
+                            <constraint firstItem="WY9-LB-1K0" firstAttribute="top" secondItem="lQ9-uX-Jek" secondAttribute="top" constant="50" id="Pcf-Xi-RDO"/>
+                            <constraint firstItem="lQ9-uX-Jek" firstAttribute="bottom" secondItem="WY9-LB-1K0" secondAttribute="bottom" constant="71" id="stm-KZ-CBq"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="WinningLabel" destination="bd7-NU-opt" id="F5N-C6-8mt"/>
+                        <outlet property="gameImage" destination="s9D-iq-MRq" id="c9Q-IB-zo4"/>
+                        <outlet property="gameQuestion" destination="iOG-Sv-upB" id="b5x-mF-eyo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jlu-Kg-cR3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-31.297709923664122" y="88.732394366197184"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="71z34TM8hzL" width="250" height="387"/>
+    </resources>
+</document>
